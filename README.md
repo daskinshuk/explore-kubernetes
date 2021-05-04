@@ -20,7 +20,7 @@
     * **Disastor recovery** – Backup and restore
 
 ### Components of kubernetes:
-<img src="image\k8-architecture.PNG" width="500" height="300">
+<img src="image\k8-architecture.PNG" width="700" height="500">
 
 * **Nodes**
     * Nodes are and virtual or a physical machine in a K8 cluster
@@ -368,7 +368,7 @@ kubectl apply -f <FILE NAME>
 		* Extension of NodePort service
 		* NodePort service is an extension of ClusterIP type
 
-* Refernces
+* References
     * https://www.youtube.com/watch?v=X48VuDVv0do
     * https://kubernetes.io/docs/home/
     * https://www.youtube.com/watch?v=Wf2eSG3owoA&t=40s
