@@ -20,8 +20,6 @@
     * **Disastor recovery** – Backup and restore
 
 ### Components of kubernetes:
-<img src="image\k8-architecture.PNG" width="700" height="500">
-
 * **Nodes**
     * Nodes are and virtual or a physical machine in a K8 cluster
 * **Pods**
