@@ -10,7 +10,7 @@
 + [Kubernetes Namespace](#kubernetes-namespace)
 + [Kubernetes Ingres](#kubernetes-ingres)
 + [Kubernetes Volumes:](#kubernetes-volumes-)
-+ [Statefulset](#statefulset)
++ [StatefulSet](#statefulset)
 + [Kubernetes Service:](#kubernetes-service-)
 ### What is kubernetes?
 * Container orchestration platform
@@ -272,7 +272,7 @@ kubectl apply -f <FILE NAME>
 	* Created using YAML file
 	* Storage backend is defined in Storage Class component via "provisioner" attribute
 
-### Statefulset
+### StatefulSet
 * K8 component used for stateful application like databases
 * Stateful applications are all databases or any application that stores data to keep track of it's state.
 * Stateless applications don't keep record of state
@@ -282,7 +282,7 @@ kubectl apply -f <FILE NAME>
 	* Stateful applications deployed using statefulset
 	* Both manage pods based on container specifications
 	* Configure storage the same way for both
-* Deployment vs Statefulset
+* Deployment vs StatefulSet
 	* Deployment
 		* In deployment the replicas are identical and interchangeable
 		* Created in random order and with random hash
